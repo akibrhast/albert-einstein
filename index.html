@@ -1,10 +1,12 @@
----
----
+
 <!doctype html>
 <html lang="en">
   <head>
     
-   
+    <div style="display: none ;">
+      ---
+      ---
+    </div>
   <link rel="icon" type="image/ico" href="favicon.ico"/>
 
     <!-- Required meta tags -->
@@ -24,28 +26,120 @@
 
     <title>Digital Project - Albert Einstein</title>
   </head>
-  <body class="bg-dark" >
+  <body class="" >
 
-        <nav class="navbar navbar-dark mb-2" >
-         <a class="navbar-brand" href="#">Albert Einstein</a>
+        <nav class="navbar navbar-dark bg-dark mb-2 navbar-expand-lg" >
+
+         <a class="navbar-brand" href="index.html">Albert Einstein</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav">
-       
-             <li class="nav-item">
-               <a class="nav-link" href="#">Works Cited</a>
-             </li>
-       
-           </ul>
-         </div>
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a type="button" class="nav-link" data-toggle="modal" data-target="#worksCited" >Works Cited</a>
+              </li>
+              <li class="nav-item">
+                <a type="button" class="nav-link" data-toggle="modal" data-target="#furtherReading">Further Reading</a>
+              </li>
+              <li class="nav-item">
+                <a type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal"> About Me  </a>
+              </li>
+            </ul>
+          </div>
+
+
         </nav>
 
 
-        <div class="container">
+        <div class="container mt-5">
           <div class="row  mb-2">
             <div class="col" >
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      This is a digitalProject Modal
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="furtherReading" tabindex="-1" role="dialog" aria-labelledby="furtherReadingLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="furtherReadingLabel">Further Readings</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="list-group">
+
+                        <a href="https://www.pbs.org/wgbh/nova/einstein/kaku-01.html" target="_blank" class="list-group-item list-group-item-action">NOVA | Einstein's Big Idea | The Theory Behind the Equation</a>
+                        <a href="https://www.forbes.com/sites/startswithabang/2018/01/23/the-three-meanings-of-emc2-einsteins-most-famous-equation/#4a7dfc4c71c0" target="_blank" class="list-group-item list-group-item-action">The Three Meanings Of E=mc^2, Einstein's Most Famous Equation</a>
+                        <a href="https://www.amnh.org/exhibitions/einstein/energy" target="_blank" class="list-group-item list-group-item-action">Einstein's Revolution | AMNH</a>
+                        <a href="https://www.pri.org/stories/2014-10-06/how-did-english-become-language-science" target="_blank" class="list-group-item list-group-item-action ">How did English become the language of science?</a>
+                        <a href="https://www.history.com/news/9-things-you-may-not-know-about-albert-einstein" target="_blank" class="list-group-item list-group-item-action ">9 Things You May Not Know About Albert Einstein</a>
+                        <a href="https://blogs.scientificamerican.com/guest-blog/the-forgotten-life-of-einsteins-first-wife/" target="_blank" class="list-group-item list-group-item-action ">The Forgotten Life of Einstein's First Wife </a>
+                        <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" class="list-group-item list-group-item-action ">Albert Einstein | Wikepedia      </a>
+
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="worksCited" tabindex="-1" role="dialog" aria-labelledby="worksCitedLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="worksCitedLabel">Works Cited | To be Modified still</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="list-group">
+
+                          <a href="https://www.pbs.org/wgbh/nova/einstein/kaku-01.html" target="_blank" class="list-group-item list-group-item-action">NOVA | Einstein's Big Idea | The Theory Behind the Equation</a>
+                          <a href="https://www.forbes.com/sites/startswithabang/2018/01/23/the-three-meanings-of-emc2-einsteins-most-famous-equation/#4a7dfc4c71c0" target="_blank" class="list-group-item list-group-item-action">The Three Meanings Of E=mc^2, Einstein's Most Famous Equation</a>
+                          <a href="https://www.amnh.org/exhibitions/einstein/energy" target="_blank" class="list-group-item list-group-item-action">Einstein's Revolution | AMNH</a>
+                          <a href="https://www.pri.org/stories/2014-10-06/how-did-english-become-language-science" target="_blank" class="list-group-item list-group-item-action ">How did English become the language of science?</a>
+                          <a href="https://www.history.com/news/9-things-you-may-not-know-about-albert-einstein" target="_blank" class="list-group-item list-group-item-action ">9 Things You May Not Know About Albert Einstein</a>
+                          <a href="https://blogs.scientificamerican.com/guest-blog/the-forgotten-life-of-einsteins-first-wife/" target="_blank" class="list-group-item list-group-item-action ">The Forgotten Life of Einstein's First Wife </a>
+                          <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" class="list-group-item list-group-item-action ">Albert Einstein | Wikepedia      </a>
+
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
               <!--Accordion wrapper-->
               <div class="accordion md-accordion accordion-1" id="accordionEx23" role="tablist">
                 <div class="card">
@@ -386,6 +480,7 @@
 
 
               </div>
+              
             </div>
           </div>
         </div>
